@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let day= prompt("Enter weekday");
+
+        switch (day) {
+
+            case "monday":
+                document.write("start of work week");
+                break;
+
+            case "tuesday":
+            case "wednesday":
+            case "thursday":
+                document.write("Working day");
+                break;
+
+            case "friday":
+                document.write("weeekend is near");
+                break;
+            
+            case "saturday":
+                document.write("weekend");
+                break;
+               
+            case "sunday":
+                document.write("holiday");
+                break;
+
+            default:
+                document.write("Invalid weekday");
+        }
+    </script>
+</body>
+
+</html>
